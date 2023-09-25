@@ -1,0 +1,33 @@
+site_name: Coding Geeks
+theme:
+  name: material
+  features:
+    - navigation.tabs
+
+# Page tree
+nav:
+  - Home: index.md
+  - Algorithm:
+    - Data Structure:
+      - Data Structure - Linked List: algorithm/data-structure-linked-list.md
+    - Algorithm: algorithm/algorithm.md
+    - Algorithm Overview: algorithm/algorithm-overview.md
+  - Programming:
+    - Development Environment:
+      - Getting Started with Linux: programming/getting-started-with-linux.md
+      - Getting Started with macOS: programming/getting-started-with-macos.md
+    - Java Core:
+      - Java Core - Basic: java/java-core-basic.md
+      - Java Core - Formatting: java/java-core-formatting.md
+  - Cloud:
+    - Cloud Knowledge:
+      - Cloud Service: cloud/cloud-service.md
+    - Amazon AWS:
+      - AWS Overview: cloud/aws-overview.md
+      - AWS Billing Alarm: cloud/aws-billing-alarm.md
+  - Tutorial:
+    - Angular Tutorial:
+      - Getting Started with Angular CLI: tutorial/getting-started-with-angular-cli.md
+    - React Tutorial:
+      - Getting Started with React: tutorial/getting-started-with-react.md
+  - About: about.md
