@@ -10,32 +10,32 @@ nav:
   - Home: index.md
   - Algorithm:
     - Data Structure:
-      - Data Structure - Linked List: algorithm/data-structure-linked-list.md
-      - Data Structure - Stack: algorithm/data-structure-stack.md
-      - Data Structure - Queue: algorithm/data-structure-queue.md
-      - Data Structure - Deque: algorithm/data-structure-deque.md
-      - Data Structure - LRU Cache: algorithm/data-structure-lru-cache.md
-      - Data Structure - LFU Cache: algorithm/data-structure-lfu-cache.md
-      - Data Structure - Monotonic Queue: algorithm/data-structure-monotonic-queue.md
-      - Data Structure - Skip List: algorithm/data-structure-skip-list.md
-      - Data Structure - Tree: algorithm/data-structure-tree.md
-      - Data Structure - Binary Search Tree: algorithm/data-structure-binary-search-tree.md
-      - Data Structure - Red Black Tree: algorithm/data-structure-red-black-tree.md
-      - Data Structure - N-ary Tree: algorithm/data-structure-nary-tree.md
-      - Data Structure - B Tree: algorithm/data-structure-b-tree.md
-      - Data Structure - B+ Tree: algorithm/data-structure-b-plus-tree.md
-      - Data Structure - Trie: algorithm/data-structure-trie.md
-      - Data Structure - Segment Tree: algorithm/data-structure-segment-tree.md
-      - Data Structure - Fenwick Tree: algorithm/data-structure-fenwick-tree.md
-      - Data Structure - HashMap: algorithm/data-structure-hashmap.md
-      - Data Structure - Heap: algorithm/data-structure-heap.md
-      - Data Structure - Bloom Filter: algorithm/data-structure-bloom-filter.md
-      - Data Structure - Graph: algorithm/data-structure-graph.md
-      - Data Structure - Graph Problems: algorithm/data-structure-graph-problems.md
-      - Data Structure - Bipartite Graph: algorithm/data-structure-bipartite-graph.md
-      - Data Structure - Directed Graph: algorithm/data-structure-directed-graph.md
-      - Data Structure - Topological Sorting: algorithm/data-structure-topological-sorting.md
-      - Data Structure - Minimum Spanning Tree: algorithm/data-structure-minimum-spanning-tree.md
+      - Data Structure - Linked List: algorithm/data-structure/data-structure-linked-list.md
+      - Data Structure - Stack: algorithm/data-structure/data-structure-stack.md
+      - Data Structure - Queue: algorithm/data-structure/data-structure-queue.md
+      - Data Structure - Deque: algorithm/data-structure/data-structure-deque.md
+      - Data Structure - LRU Cache: algorithm/data-structure/data-structure-lru-cache.md
+      - Data Structure - LFU Cache: algorithm/data-structure/data-structure-lfu-cache.md
+      - Data Structure - Monotonic Queue: algorithm/data-structure/data-structure-monotonic-queue.md
+      - Data Structure - Skip List: algorithm/data-structure/data-structure-skip-list.md
+      - Data Structure - Tree: algorithm/data-structure/data-structure-tree.md
+      - Data Structure - Binary Search Tree: algorithm/data-structure/data-structure-binary-search-tree.md
+      - Data Structure - Red Black Tree: algorithm/data-structure/data-structure-red-black-tree.md
+      - Data Structure - N-ary Tree: algorithm/data-structure/data-structure-nary-tree.md
+      - Data Structure - B Tree: algorithm/data-structure/data-structure-b-tree.md
+      - Data Structure - B+ Tree: algorithm/data-structure/data-structure-b-plus-tree.md
+      - Data Structure - Trie: algorithm/data-structure/data-structure-trie.md
+      - Data Structure - Segment Tree: algorithm/data-structure/data-structure-segment-tree.md
+      - Data Structure - Fenwick Tree: algorithm/data-structure/data-structure-fenwick-tree.md
+      - Data Structure - HashMap: algorithm/data-structure/data-structure-hashmap.md
+      - Data Structure - Heap: algorithm/data-structure/data-structure-heap.md
+      - Data Structure - Bloom Filter: algorithm/data-structure/data-structure-bloom-filter.md
+      - Data Structure - Graph: algorithm/data-structure/data-structure-graph.md
+      - Data Structure - Graph Problems: algorithm/data-structure/data-structure-graph-problems.md
+      - Data Structure - Bipartite Graph: algorithm/data-structure/data-structure-bipartite-graph.md
+      - Data Structure - Directed Graph: algorithm/data-structure/data-structure-directed-graph.md
+      - Data Structure - Topological Sorting: algorithm/data-structure/data-structure-topological-sorting.md
+      - Data Structure - Minimum Spanning Tree: algorithm/data-structure/data-structure-minimum-spanning-tree.md
     - Algorithm: algorithm/algorithm.md
     - Algorithm Overview: algorithm/algorithm-overview.md
   - Programming:
