@@ -21,7 +21,7 @@ Each node has an attribute to represent its value. Meanwhile, it has two pointer
 
 First, define the structure of `SinglyLinkedNode`. Each node has an attribute `val`, storing the value of the node. And it also has one pointer `next`, storing the address of the next node.
 
-```java
+```java title="SinglyLinkedNode.java"
 public class SinglyLinkedNode {
     public int val;
     public SinglyLinkedNode next;
@@ -34,7 +34,7 @@ public class SinglyLinkedNode {
 
 Next, create a class named `SinglyLinkedList` with one static method `create`. This method reads values from an array and constructs a list with `SinglyLinkedNode`. Be aware of the fact that, for the last node, its next is always NULL.
 
-```java
+```java title="SinglyLinkedList.java"
 public class SinglyLinkedList {
     // create a singly linked list with the given array
     public static SinglyLinkedNode create(int[] arr) {  
@@ -58,7 +58,7 @@ public class SinglyLinkedList {
 
 First, define the structure of `DoublyLinkedNode`. Each node has an attribute `val`, storing the value of the node. And it has two pointers `previous` and `next`, storing the addresses of the previous node and the next node.
 
-```java
+```java title="DoublyLinkedNode.java"
 public class DoublyLinkedNode {
     public int val;
     public DoublyLinkedNode previous;
@@ -73,7 +73,7 @@ public class DoublyLinkedNode {
 
 Next, create a class named `DoublyLinkedList` with one static method `create`. This method reads values from an array and constructs a list with `DoublyLinkedNode`. During creation of DoublyLinkedNode, set its `previous` and `next` accordingly.
 
-```java
+```java title="DoublyLinkedList.java"
 public class DoublyLinkedList {
     // create a doubly linked list with the given array
     public static DoublyLinkedNode create(int[] arr) {  
@@ -110,7 +110,7 @@ All below questions/codes are based on singly linked list.
 
 Reverse a linked list and return the head of the new reversed list.
 
-```java
+```java title="Reverse a given linked list"
 /**
  * @param head of the original linked list
  * @return reversed linked list
@@ -136,7 +136,7 @@ public ListNode reverse(ListNode head) {
 
 Find the middle node of the given linked list and return it.
 
-```java
+```java title="Find the middle node in a linked list"
 /**
  * @param head of the original linked list
  * @return middle node of the linked list
@@ -169,10 +169,10 @@ public ListNode findMiddle(ListNode head) {
 
 Check whether there is any cycle exists in a given linked list. The below approach adapts the `Floyd's Cycle Detection Algorithm`, Tortoise & Hare or two pointers.
 
-```java
+```java title="Check whether linked list has any cycle"
 /**
  * @param head of the original linked list
- * @return middle node of the linked list
+ * @return true if linked list has cycle, otherwise false
  *
  * Sample
  * Input:  7->3->12->8->4->9
@@ -206,18 +206,18 @@ public boolean hasCycle(ListNode head) {
 Find the node where cycle begins in a given linked list. If there is no cycle, return null.
 
 We use the following figure to illustrate the solution. We will use the fast pointer and the slow pointer to solve this problem.
-![image](/assets/images/algorithm/1111/cycle.png){:width="600px"}  
+![image](/assets/images/algorithm/1111/cycle.png){ width="600" }
 
 - X is the start node of the linked list.
 - Y is the node where the cycle begins. It is the node we are looking for.
 - Z is the node where the fast and slow pointers meet for the first time.
-- For fast pointer, the distance it has walked through is a + b + c + b; for slow pointer, the distance is a + b. Since the speed of fast pointer is twice of the slow pointer, then we have a + b + c + b = 2 * (a + b). Finally we have `a = c`.
+- For fast pointer, the distance it has walked through is `a + b + c + b`; for slow pointer, the distance is `a + b`. Since the speed of fast pointer is twice of the slow pointer, then we have `a + b + c + b = 2 * (a + b)`. Finally we have `a = c`.
 - When they meet at node Z, we can put fast pointer to the start node X, and let the slow pointer continue walk in the cycle. This time, we let both pointers move one step each time. When they meet again, they should be at node Y, where the cycle begins.
 
-```java
+```java title="Find out the node where cycle starts in the linked list"
 /**
  * @param head of the original linked list
- * @return middle node of the linked list
+ * @return the node where cycle starts in the linked list, otherwise return null
  *
  * Sample
  * Input:  7->3->12->8->4->9->12
