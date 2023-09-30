@@ -10,73 +10,73 @@ theme:
 # Page tree
 nav:
   - Home: index.md
-  - Data Structure:
+  - Data structure:
     - List: 
       - index/list/index.md
-    - Linked List: data-structure/data-structure-linked-list.md
+    - Linked list: data-structure/data-structure-linked-list.md
     - Stack: data-structure/data-structure-stack.md
     - Queue: data-structure/data-structure-queue.md
     - Deque: data-structure/data-structure-deque.md
-    - LRU Cache: data-structure/data-structure-lru-cache.md
-    - LFU Cache: data-structure/data-structure-lfu-cache.md
-    - Monotonic Queue: data-structure/data-structure-monotonic-queue.md
-    - Skip List: data-structure/data-structure-skip-list.md
+    - LRU cache: data-structure/data-structure-lru-cache.md
+    - LFU cache: data-structure/data-structure-lfu-cache.md
+    - Monotonic queue: data-structure/data-structure-monotonic-queue.md
+    - Skip list: data-structure/data-structure-skip-list.md
     - Tree: 
       - index/tree/index.md
-      - Binary Tree: data-structure/data-structure-binary-tree.md
-      - Binary Search Tree: data-structure/data-structure-binary-search-tree.md
-      - Red Black Tree: data-structure/data-structure-red-black-tree.md
-      - N-ary Tree: data-structure/data-structure-nary-tree.md
-      - B Tree: data-structure/data-structure-b-tree.md
-      - B+ Tree: data-structure/data-structure-b-plus-tree.md
+      - Binary tree: data-structure/data-structure-binary-tree.md
+      - Binary search tree: data-structure/data-structure-binary-search-tree.md
+      - Red black tree: data-structure/data-structure-red-black-tree.md
+      - N-ary tree: data-structure/data-structure-nary-tree.md
+      - B tree: data-structure/data-structure-b-tree.md
+      - B+ tree: data-structure/data-structure-b-plus-tree.md
       - Trie: data-structure/data-structure-trie.md
-      - Segment Tree: data-structure/data-structure-segment-tree.md
-      - Fenwick Tree: data-structure/data-structure-fenwick-tree.md
-    - Set and Map: 
+      - Segment tree: data-structure/data-structure-segment-tree.md
+      - Fenwick tree: data-structure/data-structure-fenwick-tree.md
+    - Set and map: 
       - index/map/index.md
       - HashMap: data-structure/data-structure-hashmap.md
       - Heap: data-structure/data-structure-heap.md
-      - Bloom Filter: data-structure/data-structure-bloom-filter.md
+      - Bloom filter: data-structure/data-structure-bloom-filter.md
     - Graph: 
       - index/graph/index.md
       - Graph: data-structure/data-structure-graph.md
       #- Graph Problems: data-structure/data-structure-graph-problems.md
-      - Bipartite Graph: data-structure/data-structure-bipartite-graph.md
-      - Directed Graph: data-structure/data-structure-directed-graph.md
-      - Topological Sorting: data-structure/data-structure-topological-sorting.md
-      - Minimum Spanning Tree: data-structure/data-structure-minimum-spanning-tree.md
+      - Bipartite graph: data-structure/data-structure-bipartite-graph.md
+      - Directed graph: data-structure/data-structure-directed-graph.md
+      - Topological sorting: data-structure/data-structure-topological-sorting.md
+      - Minimum spanning tree: data-structure/data-structure-minimum-spanning-tree.md
   - Algorithm:
     - Sorting:
       - index/sorting/index.md
-      - Basic Sorting Algorithms: algorithm/algorithm-sorting.md
-      - Heap Sort: algorithm/algorithm-sorting.md
-      - Merge Sort: algorithm/algorithm-sorting.md
-      - Quick Sort: algorithm/algorithm-sorting.md
-      - Bucket Sort: algorithm/algorithm-sorting.md
-    - Common Algorithms:
-      - index/commons/index.md
-      - Binary Search: algorithm/algorithm-binary-search.md
-      - Divide and Conquer: algorithm/algorithm-divide-and-conquer.md
+      - Basic sorting algorithms: algorithm/algorithm-sorting.md
+      - Heap sort: algorithm/algorithm-sorting.md
+      - Merge sort: algorithm/algorithm-sorting.md
+      - Quick sort: algorithm/algorithm-sorting.md
+      - Bucket sort: algorithm/algorithm-sorting.md
+    - Common algorithms:
+      #- index/commons/index.md
+      - Binary search: algorithm/algorithm-binary-search.md
+      - Divide and conquer: algorithm/algorithm-divide-and-conquer.md
       - BFS and DFS: algorithm/algorithm-bfs-and-dfs.md
-      - Two Pointers: algorithm/algorithm-two-pointers.md
-      - Combination and Permutation: algorithm/algorithm-combination-and-permutation.md
-      - Union Find: algorithm/algorithm-union-find.md
-    - Dynamic Programming:
+      - Two pointers: algorithm/algorithm-two-pointers.md
+      - Combination and permutation: algorithm/algorithm-combination-and-permutation.md
+      - Union find: algorithm/algorithm-union-find.md
+    - Dynamic programming:
       - index/dp/index.md
-      - Dynamic Programming: algorithm/algorithm-dynamic-programming.md
+      - Dynamic programming: algorithm/algorithm-dynamic-programming.md
       - Sequence DP: algorithm/algorithm-sequence-dp.md
-      - Two Sequences DP: algorithm/algorithm-two-sequences-dp.md
+      - Two sequences DP: algorithm/algorithm-two-sequences-dp.md
       - Matrix DP: algorithm/algorithm-matrix-dp.md
-      - Knapsack Problems: algorithm/algorithm-knapsack-problems.md
-    - Others:
-      - index/other/index.md
-      - Sweep Line: algorithm/algorithm-sweep-line.md
-      - Sqrt Decomposition: algorithm/algorithm-sqrt-decomposition.md
-      - Minimax Algorithm: algorithm/algorithm-minimax-algorithm.md
-      - Map Reduce: algorithm/algorithm-map-reduce.md
-      - Pre Sum: algorithm/algorithm-pre-sum.md
+      - Knapsack problems: algorithm/algorithm-knapsack-problems.md
+    - Other Algorithms:
+      #- index/other/index.md
+      - Sweep line: algorithm/algorithm-sweep-line.md
+      - Sqrt decomposition: algorithm/algorithm-sqrt-decomposition.md
+      - Minimax algorithm: algorithm/algorithm-minimax-algorithm.md
+      - Map reduce: algorithm/algorithm-map-reduce.md
+      - Pre sum: algorithm/algorithm-pre-sum.md
       - Coordinate: algorithm/algorithm-coordinate.md
-      - Bit Manipulation: algorithm/algorithm-bit-manipulation.md
+      - Bit manipulation: algorithm/algorithm-bit-manipulation.md
       - Math: algorithm/algorithm-math.md
   - Programming:
     - Development Environment:
