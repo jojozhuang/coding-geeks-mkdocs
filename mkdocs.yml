@@ -4,8 +4,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.indexes
-    - navigation.path
-    - navigation.expand
     - navigation.sections
     - content.code.copy
 
@@ -14,7 +12,7 @@ nav:
   - Home: index.md
   - Data Structure:
     - List: 
-      - tree/index.md
+      - index/list/index.md
     - Linked List: data-structure/data-structure-linked-list.md
     - Stack: data-structure/data-structure-stack.md
     - Queue: data-structure/data-structure-queue.md
@@ -24,7 +22,7 @@ nav:
     - Monotonic Queue: data-structure/data-structure-monotonic-queue.md
     - Skip List: data-structure/data-structure-skip-list.md
     - Tree: 
-      - tree/index.md
+      - index/tree/index.md
       - Binary Tree: data-structure/data-structure-binary-tree.md
       - Binary Search Tree: data-structure/data-structure-binary-search-tree.md
       - Red Black Tree: data-structure/data-structure-red-black-tree.md
@@ -35,39 +33,51 @@ nav:
       - Segment Tree: data-structure/data-structure-segment-tree.md
       - Fenwick Tree: data-structure/data-structure-fenwick-tree.md
     - Set and Map: 
-      - tree/index.md
+      - index/map/index.md
       - HashMap: data-structure/data-structure-hashmap.md
       - Heap: data-structure/data-structure-heap.md
       - Bloom Filter: data-structure/data-structure-bloom-filter.md
     - Graph: 
-      - tree/index.md
+      - index/graph/index.md
       - Graph: data-structure/data-structure-graph.md
-      - Graph Problems: data-structure/data-structure-graph-problems.md
+      #- Graph Problems: data-structure/data-structure-graph-problems.md
       - Bipartite Graph: data-structure/data-structure-bipartite-graph.md
       - Directed Graph: data-structure/data-structure-directed-graph.md
       - Topological Sorting: data-structure/data-structure-topological-sorting.md
       - Minimum Spanning Tree: data-structure/data-structure-minimum-spanning-tree.md
   - Algorithm:
-    - Sorting: algorithm/algorithm/algorithm-sorting.md
-    - Bit Manipulation: algorithm/algorithm/algorithm-bit-manipulation.md
-    - Binary Search: algorithm/algorithm/algorithm-binary-search.md
-    - Two Pointers: algorithm/algorithm/algorithm-two-pointers.md
-    - Divide and Conquer: algorithm/algorithm/algorithm-divide-and-conquer.md
-    - BFS and DFS: algorithm/algorithm/algorithm-bfs-and-dfs.md
-    - Combination and Permutation: algorithm/algorithm/algorithm-combination-and-permutation.md
-    - Union Find: algorithm/algorithm/algorithm-union-find.md
-    - Dynamic Programming: algorithm/algorithm/algorithm-dynamic-programming.md
-    - Sequence DP: algorithm/algorithm/algorithm-sequence-dp.md
-    - Two Sequences DP: algorithm/algorithm/algorithm-two-sequences-dp.md
-    - Matrix DP: algorithm/algorithm/algorithm-matrix-dp.md
-    - Knapsack Problems: algorithm/algorithm/algorithm-knapsack-problems.md
-    - Sweep Line: algorithm/algorithm/algorithm-sweep-line.md
-    - Sqrt Decomposition: algorithm/algorithm/algorithm-sqrt-decomposition.md
-    - Minimax Algorithm: algorithm/algorithm/algorithm-minimax-algorithm.md
-    - Map Reduce: algorithm/algorithm/algorithm-map-reduce.md
-    - Pre Sum: algorithm/algorithm/algorithm-pre-sum.md
-    - Coordinate: algorithm/algorithm/algorithm-coordinate.md
-    - Math: algorithm/algorithm/algorithm-math.md
+    - Sorting:
+      - index/sorting/index.md
+      - Basic Sorting Algorithms: algorithm/algorithm-sorting.md
+      - Heap Sort: algorithm/algorithm-sorting.md
+      - Merge Sort: algorithm/algorithm-sorting.md
+      - Quick Sort: algorithm/algorithm-sorting.md
+      - Bucket Sort: algorithm/algorithm-sorting.md
+    - Common Algorithms:
+      - index/commons/index.md
+      - Binary Search: algorithm/algorithm-binary-search.md
+      - Divide and Conquer: algorithm/algorithm-divide-and-conquer.md
+      - BFS and DFS: algorithm/algorithm-bfs-and-dfs.md
+      - Two Pointers: algorithm/algorithm-two-pointers.md
+      - Combination and Permutation: algorithm/algorithm-combination-and-permutation.md
+      - Union Find: algorithm/algorithm-union-find.md
+    - Dynamic Programming:
+      - index/dp/index.md
+      - Dynamic Programming: algorithm/algorithm-dynamic-programming.md
+      - Sequence DP: algorithm/algorithm-sequence-dp.md
+      - Two Sequences DP: algorithm/algorithm-two-sequences-dp.md
+      - Matrix DP: algorithm/algorithm-matrix-dp.md
+      - Knapsack Problems: algorithm/algorithm-knapsack-problems.md
+    - Others:
+      - index/other/index.md
+      - Sweep Line: algorithm/algorithm-sweep-line.md
+      - Sqrt Decomposition: algorithm/algorithm-sqrt-decomposition.md
+      - Minimax Algorithm: algorithm/algorithm-minimax-algorithm.md
+      - Map Reduce: algorithm/algorithm-map-reduce.md
+      - Pre Sum: algorithm/algorithm-pre-sum.md
+      - Coordinate: algorithm/algorithm-coordinate.md
+      - Bit Manipulation: algorithm/algorithm-bit-manipulation.md
+      - Math: algorithm/algorithm-math.md
   - Programming:
     - Development Environment:
       - Getting Started with Linux: programming/getting-started-with-linux.md
