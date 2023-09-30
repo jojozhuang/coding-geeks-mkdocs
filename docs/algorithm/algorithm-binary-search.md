@@ -21,7 +21,7 @@ Search a sorted array by repeatedly dividing the search interval in half. Begin 
 
 See the example below.
 
-![image](../../assets/images/algorithm/1211/binarysearch.png){:width="700px"}
+![image](../assets/images/algorithm/1211/binarysearch.png){:width="700px"}
 
 ### Variants
 

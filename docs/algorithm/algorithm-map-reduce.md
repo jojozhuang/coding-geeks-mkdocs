@@ -10,7 +10,7 @@ Implement Map Reduce
 * Secondly, reduce task, which takes the output from a map as an input and combines those data tuples into a smaller set of tuples. As the sequence of the name MapReduce implies, the reduce task is always performed after the map job.
 
 Below diagram shows the process of using MapReduce to count the number of words from multiple sources.
-![image](../../assets/images/algorithm/1235/map-reduce-word-count.png){:width="700px"}
+![image](../assets/images/algorithm/1235/map-reduce-word-count.png){:width="700px"}
 
 ## Implementation of MapReduce
 

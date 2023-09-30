@@ -156,7 +156,7 @@ private void dfs(int[][] graph, int node, List<Integer> list, List<List<Integer>
 ### Traverse in Undirected Graph
 
 Given an undirected graph with 5 vertices, traverse all vertices in this graph.
-![image](../../assets/images/algorithm/1214/graph.png){:width="350px"}
+![image](../assets/images/algorithm/1214/graph.png){:width="350px"}
 
 #### DFS Solution
 

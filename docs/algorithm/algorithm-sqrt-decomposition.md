@@ -22,7 +22,7 @@ Square root(Sqrt) decomposition allows us to answer queries in $O(\sqrt{k})$ tim
 ### Building Blocks
 
 Decompose the array into small blocks. Suppose the array has 9 elements, it can be split into $\sqrt{9}$ = 3 blocks, and we can easily calculate the sum of each block.
-![image](../../assets/images/algorithm/1232/build_blocks.png){:width="600px"}
+![image](../assets/images/algorithm/1232/build_blocks.png){:width="600px"}
 
 * If the length of the array `n` is not a perfect square, then we will have one more block.
 
@@ -31,14 +31,14 @@ Decompose the array into small blocks. Suppose the array has 9 elements, it can 
 There are two cases for the query.
 
 If range is on block boundaries, we can get the sum from blocks directly. For example, if the range is from 3 to 8, then block[1] and block[2] perfectly cover this range.
-![image](../../assets/images/algorithm/1232/query1.png){:width="600px"}
+![image](../assets/images/algorithm/1232/query1.png){:width="600px"}
 If range crosses blocks partially, we cannot get the sum from blocks directly. For example, if the range is from 2 to 7, we can get the sum for array[3,4,5] from block[1], however, we have to get other sums from the array.
-![image](../../assets/images/algorithm/1232/query2.png){:width="600px"}
+![image](../assets/images/algorithm/1232/query2.png){:width="600px"}
 
 ### Update
 
 If we update the array, we need to update the block accordingly. For example, update(2,7) will modify the array[2] from 1 to 7, and update block[0] from 9 to 15.
-![image](../../assets/images/algorithm/1232/update.png){:width="600px"}  
+![image](../assets/images/algorithm/1232/update.png){:width="600px"}  
 
 ## Implementation
 

@@ -44,7 +44,7 @@ In our implementation whenever we add a key value pair to the Hash Table we chec
 ### Structure of HashMap
 
 An array list contains Hash Nodes. Each node can have none or multiple descendant nodes. They have the same index, but contains different hashcode.
-![image](../../assets/images/algorithm/1131//hashmap.png){:width="800px"}  
+![image](../assets/images/algorithm/1131//hashmap.png){:width="800px"}  
 
 ### Common Operations for HashMap
 
