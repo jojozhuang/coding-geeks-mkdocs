@@ -3,61 +3,81 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.indexes
+    - navigation.sections
     - content.code.copy
 
 # Page tree
 nav:
   - Home: index.md
+  - Data structure:
+    - List: 
+      - index/list/index.md
+    - Linked list: data-structure/data-structure-linked-list.md
+    - Stack: data-structure/data-structure-stack.md
+    - Queue: data-structure/data-structure-queue.md
+    - Deque: data-structure/data-structure-deque.md
+    - LRU cache: data-structure/data-structure-lru-cache.md
+    - LFU cache: data-structure/data-structure-lfu-cache.md
+    - Monotonic queue: data-structure/data-structure-monotonic-queue.md
+    - Skip list: data-structure/data-structure-skip-list.md
+    - Tree: 
+      - index/tree/index.md
+      - Binary tree: data-structure/data-structure-binary-tree.md
+      - Binary search tree: data-structure/data-structure-binary-search-tree.md
+      - Red black tree: data-structure/data-structure-red-black-tree.md
+      - N-ary tree: data-structure/data-structure-nary-tree.md
+      - B tree: data-structure/data-structure-b-tree.md
+      - B+ tree: data-structure/data-structure-b-plus-tree.md
+      - Trie: data-structure/data-structure-trie.md
+      - Segment tree: data-structure/data-structure-segment-tree.md
+      - Fenwick tree: data-structure/data-structure-fenwick-tree.md
+    - Set and map: 
+      - index/map/index.md
+      - HashMap: data-structure/data-structure-hashmap.md
+      - Heap: data-structure/data-structure-heap.md
+      - Bloom filter: data-structure/data-structure-bloom-filter.md
+    - Graph: 
+      - index/graph/index.md
+      - Graph: data-structure/data-structure-graph.md
+      #- Graph Problems: data-structure/data-structure-graph-problems.md
+      - Bipartite graph: data-structure/data-structure-bipartite-graph.md
+      - Directed graph: data-structure/data-structure-directed-graph.md
+      - Topological sorting: data-structure/data-structure-topological-sorting.md
+      - Minimum spanning tree: data-structure/data-structure-minimum-spanning-tree.md
   - Algorithm:
-    - Data Structure:
-      - Data Structure - Linked List: algorithm/data-structure/data-structure-linked-list.md
-      - Data Structure - Stack: algorithm/data-structure/data-structure-stack.md
-      - Data Structure - Queue: algorithm/data-structure/data-structure-queue.md
-      - Data Structure - Deque: algorithm/data-structure/data-structure-deque.md
-      - Data Structure - LRU Cache: algorithm/data-structure/data-structure-lru-cache.md
-      - Data Structure - LFU Cache: algorithm/data-structure/data-structure-lfu-cache.md
-      - Data Structure - Monotonic Queue: algorithm/data-structure/data-structure-monotonic-queue.md
-      - Data Structure - Skip List: algorithm/data-structure/data-structure-skip-list.md
-      - Data Structure - Tree: algorithm/data-structure/data-structure-tree.md
-      - Data Structure - Binary Search Tree: algorithm/data-structure/data-structure-binary-search-tree.md
-      - Data Structure - Red Black Tree: algorithm/data-structure/data-structure-red-black-tree.md
-      - Data Structure - N-ary Tree: algorithm/data-structure/data-structure-nary-tree.md
-      - Data Structure - B Tree: algorithm/data-structure/data-structure-b-tree.md
-      - Data Structure - B+ Tree: algorithm/data-structure/data-structure-b-plus-tree.md
-      - Data Structure - Trie: algorithm/data-structure/data-structure-trie.md
-      - Data Structure - Segment Tree: algorithm/data-structure/data-structure-segment-tree.md
-      - Data Structure - Fenwick Tree: algorithm/data-structure/data-structure-fenwick-tree.md
-      - Data Structure - HashMap: algorithm/data-structure/data-structure-hashmap.md
-      - Data Structure - Heap: algorithm/data-structure/data-structure-heap.md
-      - Data Structure - Bloom Filter: algorithm/data-structure/data-structure-bloom-filter.md
-      - Data Structure - Graph: algorithm/data-structure/data-structure-graph.md
-      - Data Structure - Graph Problems: algorithm/data-structure/data-structure-graph-problems.md
-      - Data Structure - Bipartite Graph: algorithm/data-structure/data-structure-bipartite-graph.md
-      - Data Structure - Directed Graph: algorithm/data-structure/data-structure-directed-graph.md
-      - Data Structure - Topological Sorting: algorithm/data-structure/data-structure-topological-sorting.md
-      - Data Structure - Minimum Spanning Tree: algorithm/data-structure/data-structure-minimum-spanning-tree.md
-    - Algorithm:
-      - Algorithm - Sorting: algorithm/algorithm/algorithm-sorting.md
-      - Algorithm - Bit Manipulation: algorithm/algorithm/algorithm-bit-manipulation.md
-      - Algorithm - Binary Search: algorithm/algorithm/algorithm-binary-search.md
-      - Algorithm - Two Pointers: algorithm/algorithm/algorithm-two-pointers.md
-      - Algorithm - Divide and Conquer: algorithm/algorithm/algorithm-divide-and-conquer.md
-      - Algorithm - BFS and DFS: algorithm/algorithm/algorithm-bfs-and-dfs.md
-      - Algorithm - Combination and Permutation: algorithm/algorithm/algorithm-combination-and-permutation.md
-      - Algorithm - Union Find: algorithm/algorithm/algorithm-union-find.md
-      - Algorithm - Dynamic Programming: algorithm/algorithm/algorithm-dynamic-programming.md
-      - Algorithm - Sequence DP: algorithm/algorithm/algorithm-sequence-dp.md
-      - Algorithm - Two Sequences DP: algorithm/algorithm/algorithm-two-sequences-dp.md
-      - Algorithm - Matrix DP: algorithm/algorithm/algorithm-matrix-dp.md
-      - Algorithm - Knapsack Problems: algorithm/algorithm/algorithm-knapsack-problems.md
-      - Algorithm - Sweep Line: algorithm/algorithm/algorithm-sweep-line.md
-      - Algorithm - Sqrt Decomposition: algorithm/algorithm/algorithm-sqrt-decomposition.md
-      - Algorithm - Minimax Algorithm: algorithm/algorithm/algorithm-minimax-algorithm.md
-      - Algorithm - Map Reduce: algorithm/algorithm/algorithm-map-reduce.md
-      - Algorithm - Pre Sum: algorithm/algorithm/algorithm-pre-sum.md
-      - Algorithm - Coordinate: algorithm/algorithm/algorithm-coordinate.md
-      - Algorithm - Math: algorithm/algorithm/algorithm-math.md
-    - Algorithm Overview: algorithm/algorithm-overview.md
+    - Sorting:
+      - index/sorting/index.md
+      - Basic sorting algorithms: algorithm/algorithm-sorting.md
+      - Heap sort: algorithm/algorithm-sorting.md
+      - Merge sort: algorithm/algorithm-sorting.md
+      - Quick sort: algorithm/algorithm-sorting.md
+      - Bucket sort: algorithm/algorithm-sorting.md
+    - Common algorithms:
+      #- index/commons/index.md
+      - Binary search: algorithm/algorithm-binary-search.md
+      - Divide and conquer: algorithm/algorithm-divide-and-conquer.md
+      - BFS and DFS: algorithm/algorithm-bfs-and-dfs.md
+      - Two pointers: algorithm/algorithm-two-pointers.md
+      - Combination and permutation: algorithm/algorithm-combination-and-permutation.md
+      - Union find: algorithm/algorithm-union-find.md
+    - Dynamic programming:
+      - index/dp/index.md
+      - Dynamic programming: algorithm/algorithm-dynamic-programming.md
+      - Sequence DP: algorithm/algorithm-sequence-dp.md
+      - Two sequences DP: algorithm/algorithm-two-sequences-dp.md
+      - Matrix DP: algorithm/algorithm-matrix-dp.md
+      - Knapsack problems: algorithm/algorithm-knapsack-problems.md
+    - Other Algorithms:
+      #- index/other/index.md
+      - Sweep line: algorithm/algorithm-sweep-line.md
+      - Sqrt decomposition: algorithm/algorithm-sqrt-decomposition.md
+      - Minimax algorithm: algorithm/algorithm-minimax-algorithm.md
+      - Map reduce: algorithm/algorithm-map-reduce.md
+      - Pre sum: algorithm/algorithm-pre-sum.md
+      - Coordinate: algorithm/algorithm-coordinate.md
+      - Bit manipulation: algorithm/algorithm-bit-manipulation.md
+      - Math: algorithm/algorithm-math.md
   - Programming:
     - Development Environment:
       - Getting Started with Linux: programming/getting-started-with-linux.md
