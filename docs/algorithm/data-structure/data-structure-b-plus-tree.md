@@ -14,7 +14,7 @@ B+ Tree are used to store the large amount of data which can not be stored in th
 
 The internal nodes of B+ tree are often called `index nodes`. A B+ tree of order 3 is shown in the following figure.
 
-![image](../assets/images/algorithm/1125/b-plus-tree.png)
+![image](../../assets/images/algorithm/1125/b-plus-tree.png)
 
 ## Advantages of B+ Tree
 
@@ -46,7 +46,7 @@ Searching in B Trees is similar to that in Binary search tree. For example, if w
 * match found, return.
 
 Searching in a B tree depends upon the height of the tree. The search algorithm takes O(log n) time to search any element in a B tree.
-![image](../assets/images/algorithm/1124/b-tree-searching.png)
+![image](../../assets/images/algorithm/1124/b-tree-searching.png)
 
 ### Insertion in B+ Tree
 
@@ -58,13 +58,13 @@ Three steps:
 
 Example :
 Insert the value 195 into the B+ tree of order 5 shown in the following figure.
-![image](../assets/images/algorithm/1125/b-plus-tree-insertion.png)
+![image](../../assets/images/algorithm/1125/b-plus-tree-insertion.png)
 195 will be inserted in the right sub-tree of 120 after 190. Insert it at the desired position.
-![image](../assets/images/algorithm/1125/b-plus-tree-insertion2.png)
+![image](../../assets/images/algorithm/1125/b-plus-tree-insertion2.png)
 The node contains greater than the maximum number of elements i.e. 4, therefore split it and place the median node up to the parent.
-![image](../assets/images/algorithm/1125/b-plus-tree-insertion3.png)
+![image](../../assets/images/algorithm/1125/b-plus-tree-insertion3.png)
 Now, the index node contains 6 children and 5 keys which violates the B+ tree properties, therefore we need to split it, shown as follows.
-![image](../assets/images/algorithm/1125/b-plus-tree-insertion4.png)
+![image](../../assets/images/algorithm/1125/b-plus-tree-insertion4.png)
 
 ### Deletion in B+ Tree
 
@@ -77,15 +77,15 @@ Three steps:
 Example:
 
 Delete the key 200 from the B+ Tree shown in the following figure.
-![image](../assets/images/algorithm/1125/b-plus-tree-deletion.png)
+![image](../../assets/images/algorithm/1125/b-plus-tree-deletion.png)
 200 is present in the right sub-tree of 190, after 195. delete it.
-![image](../assets/images/algorithm/1125/b-plus-tree-deletion2.png)
+![image](../../assets/images/algorithm/1125/b-plus-tree-deletion2.png)
 Merge the two nodes by using 195, 190, 154 and 129.
-![image](../assets/images/algorithm/1125/b-plus-tree-deletion3.png)
+![image](../../assets/images/algorithm/1125/b-plus-tree-deletion3.png)
 Now, element 120 is the single element present in the node which is violating the B+ Tree properties. Therefore, we need to merge it by using 60, 78, 108 and 120.
 
 Now, the height of B+ tree will be decreased by 1.
-![image](../assets/images/algorithm/1125/b-plus-tree-deletion4.png)
+![image](../../assets/images/algorithm/1125/b-plus-tree-deletion4.png)
 
 ## Implementation
 
