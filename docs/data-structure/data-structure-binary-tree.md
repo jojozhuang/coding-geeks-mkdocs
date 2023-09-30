@@ -18,11 +18,11 @@ A tree is a data structure composed of nodes.The tree cannot contain cycles. The
 * `Full Binary Trees`: A full binary tree is a binary tree in which every node has either zero or two children.That is, no nodes have only one child.
 * `Perfect Binary Trees`: A perfect binary tree is one that is both full and complete. All leaf nodes will be at the same level, and this level has the maximum number of nodes.
 
-![image](../../assets/images/algorithm/1121/trees.png)
+![image](../assets/images/algorithm/1121/trees.png)
 
 * `Balanced` vs. Unbalanced: A tree is balanced if each sub-tree is balanced and the height of the two sub-trees differ by at most one.
 
-![image](../../assets/images/algorithm/1121/balanced.png){:width="700px"}
+![image](../assets/images/algorithm/1121/balanced.png){:width="700px"}
 
 ## Binary Tree Properties
 
@@ -38,7 +38,7 @@ A tree is a data structure composed of nodes.The tree cannot contain cycles. The
 
 A tree whose elements have at most 2 children is called a binary tree. Since each element in a binary tree can have only 2 children, we typically name them the left and right child.
 
-![image](../../assets/images/algorithm/1121/binary_tree.png){:width="350px"}  
+![image](../assets/images/algorithm/1121/binary_tree.png){:width="350px"}  
 
 ### Implementing Tree Node
 
@@ -317,7 +317,7 @@ public List<Integer> postorderTraversal(TreeNode root) {
 
 Suppose we have a tree as follows.
 
-![image](../../assets/images/algorithm/1121/tree_template.png){:width="180px"}
+![image](../assets/images/algorithm/1121/tree_template.png){:width="180px"}
 
 There are totally 6 traversal ways.  
 
@@ -447,7 +447,7 @@ public List<Integer> postorderTraversal2(TreeNode root) {
 
 Given binary tree {3,9,20,#,#,15,7} as follows.
 
-![image](../../assets/images/algorithm/1121/tree_level_order.png){:width="350px"}
+![image](../assets/images/algorithm/1121/tree_level_order.png){:width="350px"}
 
 Return its level order traversal as below.
 
@@ -529,7 +529,7 @@ private void helper(TreeNode root, List<List<Integer>> list, int height) {
 
 For example, we have a tree as follows.
 
-![image](../../assets/images/algorithm/1121/binary_tree.png){:width="350px"}
+![image](../assets/images/algorithm/1121/binary_tree.png){:width="350px"}
 
 Serialization will convert to tree to string ["1","2","3","#","#","4","5"] and deserialization will convert this string to the original tree.
 

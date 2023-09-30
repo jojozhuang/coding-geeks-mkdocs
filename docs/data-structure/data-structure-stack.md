@@ -6,7 +6,7 @@ A stack is a linear data structure that follows the principle of `Last In First 
 
 Stack is just like a pile of plates kept on top of each other. You can only take out a plate from the top and put a plate on top of the other plates.
 
-![image](../../assets/images/algorithm/1112/plates.png){:width="400px"}  
+![image](../assets/images/algorithm/1112/plates.png){:width="400px"}  
 
 Think about the things you can do with such a pile of plates.
 
@@ -23,7 +23,7 @@ Stack is an abstract data type that serves as a collection of elements, with two
 * `pop`: remove the most recently added element
 
 Stack follows the `LIFO`(Last-in, first-out) rule. The last item that was placed is the first item to go out.
-![image](../../assets/images/algorithm/1112/stack.png){:width="800px"}  
+![image](../assets/images/algorithm/1112/stack.png){:width="800px"}  
 
 ## Common Operations on Stack
 
@@ -50,7 +50,7 @@ Four ways to implement stack.
 ### Using Linked List
 
 The head of the Linked List keeps the latest added item, which is the top of stack.
-![image](../../assets/images/algorithm/1112/linkedlist_stack.png)
+![image](../assets/images/algorithm/1112/linkedlist_stack.png)
 
 * push: Create new node with the given value, set its next pointer point to the current head node and let the head pointer point to the new node.
 * pop: Get value of the head node, let the head pointer point to the next node.
@@ -113,7 +113,7 @@ public class LinkedListStack {
 ### Using Array
 
 The top pointer is always pointing to the latest added item, which is the top of stack.
-![image](../../assets/images/algorithm/1112/array_stack.png)
+![image](../assets/images/algorithm/1112/array_stack.png)
 
 * push: Move top pointer one step ahead and put the given value.
 * pop: Return the top value and move top pointer one step backward.

@@ -20,7 +20,7 @@ Find any topological order for the given graph.
 
 Example:
 For graph as follow:
-![image](../../assets/images/algorithm/1145/directed-graph.jpg){:width="300px"}
+![image](../assets/images/algorithm/1145/directed-graph.jpg){:width="300px"}
 
 The topological order can be:
 
