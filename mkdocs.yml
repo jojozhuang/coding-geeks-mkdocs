@@ -11,6 +11,7 @@ theme:
 nav:
   - Home: index.md
   - Data structure:
+    - index/data-structure/index.md
     - List: 
       - index/list/index.md
     - Linked list: data-structure/data-structure-linked-list.md
@@ -46,6 +47,7 @@ nav:
       - Topological sorting: data-structure/data-structure-topological-sorting.md
       - Minimum spanning tree: data-structure/data-structure-minimum-spanning-tree.md
   - Algorithm:
+    - index/algorithm/index.md
     - Sorting:
       - index/sorting/index.md
       - Basic sorting algorithms: algorithm/algorithm-sorting.md
@@ -78,6 +80,7 @@ nav:
       - Coordinate: algorithm/algorithm-coordinate.md
       - Bit manipulation: algorithm/algorithm-bit-manipulation.md
       - Math: algorithm/algorithm-math.md
+      - Random: algorithm/algorithm-random.md
   - Design pattern:
     - index/design-pattern/index.md
     - Creational Pattern:
