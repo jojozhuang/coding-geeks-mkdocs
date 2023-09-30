@@ -366,7 +366,7 @@ private void modify(SegmentTreeNode root, int index, int value) {
 * [LintCode 248 - Count of Smaller Number](https://www.lintcode.com/problem/count-of-smaller-number)
 * [LintCode 249 - Count of Smaller Number before itself](https://www.lintcode.com/problem/count-of-smaller-number-before-itself)
 
-## Source Files
+## Source files
 
 * [Source files for Segment Tree on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-segment-tree)
 * [Segment Tree Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1ir0YmfXC2EM--aJZcPbn6_uFSxs6kbyC/view?usp=sharing)

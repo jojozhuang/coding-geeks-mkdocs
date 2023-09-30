@@ -78,6 +78,35 @@ nav:
       - Coordinate: algorithm/algorithm-coordinate.md
       - Bit manipulation: algorithm/algorithm-bit-manipulation.md
       - Math: algorithm/algorithm-math.md
+  - Design pattern:
+    - index/design-pattern/index.md
+    - Creational Pattern:
+      - Singleton: design-pattern/design-pattern-singleton.md
+      - Factory: design-pattern/design-pattern-factory.md
+      - Builder: design-pattern/design-pattern-builder.md
+      - Prototype: design-pattern/design-pattern-prototype.md
+      - DTO: design-pattern/design-pattern-dto.md
+    - Structural Pattern:
+      - Adapter: design-pattern/design-pattern-adapter.md
+      - Bridge: design-pattern/design-pattern-bridge.md
+      - Composite: design-pattern/design-pattern-composite.md
+      - Decorator: design-pattern/design-pattern-decorator.md
+      - Facade: design-pattern/design-pattern-facade.md
+      - Flyweight: design-pattern/design-pattern-flyweight.md
+      - Proxy: design-pattern/design-pattern-proxy.md
+    - Behavioral Pattern:
+      - Command: design-pattern/design-pattern-command.md
+      - Interpreter: design-pattern/design-pattern-interpreter.md
+      - Iterator: design-pattern/design-pattern-iterator.md
+      - Mediator: design-pattern/design-pattern-mediator.md
+      - Memento: design-pattern/design-pattern-memento.md
+      - Null Object: design-pattern/design-pattern-null-object.md
+      - Observer: design-pattern/design-pattern-observer.md
+      - State: design-pattern/design-pattern-state.md
+      - Strategy: design-pattern/design-pattern-strategy.md
+      - Template Method: design-pattern/design-pattern-template-method.md
+      - Visitor: design-pattern/design-pattern-visitor.md
+
   - Programming:
     - Development Environment:
       - Getting Started with Linux: programming/getting-started-with-linux.md

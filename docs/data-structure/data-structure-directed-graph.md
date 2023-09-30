@@ -21,7 +21,7 @@ Given a directed graph, check whether the graph contains a cycle or not. Your fu
 
 * [LintCode 127 - Topological Sorting](http://lintcode.com/problem/topological-sorting/)
 
-## Source Files
+## Source files
 
 * [Source files for Directed Graph on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-directed-graph)
 

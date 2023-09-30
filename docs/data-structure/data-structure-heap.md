@@ -487,7 +487,7 @@ public class PriorityQueueMin {
 * [LeetCode 218 - The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
 * [LeetCode 480 - Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
 
-## Source Files
+## Source files
 
 * [Source files for Heap on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-heap)
 * [Heap Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1EQJpMtw2ZLlUKU-nlrUlqLz6HqgJ2mRU/view?usp=sharing)

@@ -232,7 +232,7 @@ public boolean carPooling(int[][] trips, int capacity) {
 * [LeetCode 1094 - Car Pooling](https://leetcode.com/problems/car-pooling/)
 * [LeetCode 218 - The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
 
-## Source Files
+## Source files
 
 * [Source files for Sweep Line on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/alg-sweep-line)
 * [Sweep Line Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1qh2nqRorRfF4H89DP94aU3SeywZvI17C/view?usp=sharing)

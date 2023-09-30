@@ -262,7 +262,7 @@ Output.
 5 8 9 12 50 60 70 90
 ```
 
-## Source Files
+## Source files
 
 * [Source files for Skip List on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-skiplist)
 

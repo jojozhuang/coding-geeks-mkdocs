@@ -415,7 +415,7 @@ How to explain the time complexity of quick sort?
 * In average case, like the merge sort, total level is log(n). At each level, it use O(n) time, so, the total time is  O(n) * log(n) = nlog(n).
 * In worst case(partition the array only one element each time), it needs O(n^2) times to divide the array.
 
-## Source Files
+## Source files
 
 * [Source files for Sorting on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/alg-sorting)
 * [Sorting Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1LpLxWmdsLdLoi0PqN0RZ2yZl-ezjDWQI/view?usp=sharing)

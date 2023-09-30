@@ -115,7 +115,7 @@ public class TopKFrequentWords {
 }
 ```
 
-## Source Files
+## Source files
 
 * [Source files for Map Reduce on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/alg-map-reduce)
 

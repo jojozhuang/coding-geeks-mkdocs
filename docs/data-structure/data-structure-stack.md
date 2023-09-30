@@ -461,7 +461,7 @@ public class StackQuickSort {
 * [LintCode 370 - Convert Expression to Reverse Polish Notation](https://www.lintcode.com/problem/convert-expression-to-reverse-polish-notation/)
 * [LintCode 368 - Expression Evaluation](https://www.lintcode.com/problem/expression-evaluation)
 
-## Source Files
+## Source files
 
 * [Source files for Stack on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-stack)
 * [Stack Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1Qy0xBmbjYmG9BCJeKbCQ7yG4EEFDoqRx/view?usp=sharing)

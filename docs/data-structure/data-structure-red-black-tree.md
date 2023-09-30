@@ -93,7 +93,7 @@ There are three cases when deleting a node from Binary Search Tree.
 * Node has only one child.
 * Node has two children.
 
-## Source Files
+## Source files
 
 * [Source files for Red Black Tree on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-red-black-tree)
 * [Red Black Tree Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1YKBH9VD-vg7LqoYj77tjU6sEQ64y9StE/view?usp=sharing)

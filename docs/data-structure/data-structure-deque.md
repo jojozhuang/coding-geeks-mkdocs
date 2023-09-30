@@ -246,7 +246,7 @@ public class CircularArrayDeque {
 
 * [LeetCode 239 - Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 
-## Source Files
+## Source files
 
 * [Source files for Deque on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-deque)
 * [Deque Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1mEfv4gLJ3ZX6eL4M_iZ-4XMRWnAqy385/view?usp=sharing)

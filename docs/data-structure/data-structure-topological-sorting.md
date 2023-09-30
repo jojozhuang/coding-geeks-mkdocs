@@ -274,7 +274,7 @@ public String alienOrder(String[] words) {
 * [LeetCode 207 - Course Schedule](https://leetcode.com/problems/course-schedule/)
 * [LeetCode 269 - Alien Dictionary](https://leetcode.com/problems/alien-dictionary)
 
-## Source Files
+## Source files
 
 * [Source files for Topological Sorting on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-topological-sorting)
 

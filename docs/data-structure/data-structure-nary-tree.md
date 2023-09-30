@@ -4,6 +4,6 @@ Implement and traverse N-ary Tree.
 
 ## Classic Problems
 
-## Source Files
+## Source files
 
 ## Reference

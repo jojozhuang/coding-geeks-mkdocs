@@ -127,7 +127,7 @@ Others- Todo
 * [LeetCode 189 - Rotate Array](https://leetcode.com/problems/rotate-array/)
 * [LeetCode 238 - Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 
-## Source Files
+## Source files
 
 * [Source files for Two Pointers on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/alg-two-pointers)
 * [Two Pointers Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1T7XqbPqwcxXaaDt2RR9sNAfpe-QlALZU/view?usp=sharing)

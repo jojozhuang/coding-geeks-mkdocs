@@ -26,6 +26,6 @@ public int sumRange(int i, int j) {
 }
 ```
 
-## Source Files
+## Source files
 
 ## References
