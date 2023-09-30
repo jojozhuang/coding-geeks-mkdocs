@@ -10,16 +10,16 @@ A linked list is represented by a sequence of nodes. Each node contains a link t
 ## Why Skip List?
 
 It skips over many of the items of the full list in one step, that’s why it is known as skip list.
-![image](../assets/images/algorithm/1119/skip-list.jpg){:width="600px"}  
+![image](../../assets/images/algorithm/1119/skip-list.jpg){:width="600px"}  
 
 ## Insert, Search and Delete
 
 Insert 44.
-![image](../assets/images/algorithm/1119/insert.gif){:width="800px"}
+![image](../../assets/images/algorithm/1119/insert.gif){:width="800px"}
 Search 44.
-![image](../assets/images/algorithm/1119/search.gif){:width="800px"}
+![image](../../assets/images/algorithm/1119/search.gif){:width="800px"}
 Delete 25.
-![image](../assets/images/algorithm/1119/delete.gif){:width="800px"}
+![image](../../assets/images/algorithm/1119/delete.gif){:width="800px"}
 
 ## Implementation
 

@@ -36,7 +36,27 @@ nav:
       - Data Structure - Directed Graph: algorithm/data-structure/data-structure-directed-graph.md
       - Data Structure - Topological Sorting: algorithm/data-structure/data-structure-topological-sorting.md
       - Data Structure - Minimum Spanning Tree: algorithm/data-structure/data-structure-minimum-spanning-tree.md
-    - Algorithm: algorithm/algorithm.md
+    - Algorithm:
+      - Algorithm - Sorting: algorithm/algorithm/algorithm-sorting.md
+      - Algorithm - Bit Manipulation: algorithm/algorithm/algorithm-bit-manipulation.md
+      - Algorithm - Binary Search: algorithm/algorithm/algorithm-binary-search.md
+      - Algorithm - Two Pointers: algorithm/algorithm/algorithm-two-pointers.md
+      - Algorithm - Divide and Conquer: algorithm/algorithm/algorithm-divide-and-conquer.md
+      - Algorithm - BFS and DFS: algorithm/algorithm/algorithm-bfs-and-dfs.md
+      - Algorithm - Combination and Permutation: algorithm/algorithm/algorithm-combination-and-permutation.md
+      - Algorithm - Union Find: algorithm/algorithm/algorithm-union-find.md
+      - Algorithm - Dynamic Programming: algorithm/algorithm/algorithm-dynamic-programming.md
+      - Algorithm - Sequence DP: algorithm/algorithm/algorithm-sequence-dp.md
+      - Algorithm - Two Sequences DP: algorithm/algorithm/algorithm-two-sequences-dp.md
+      - Algorithm - Matrix DP: algorithm/algorithm/algorithm-matrix-dp.md
+      - Algorithm - Knapsack Problems: algorithm/algorithm/algorithm-knapsack-problems.md
+      - Algorithm - Sweep Line: algorithm/algorithm/algorithm-sweep-line.md
+      - Algorithm - Sqrt Decomposition: algorithm/algorithm/algorithm-sqrt-decomposition.md
+      - Algorithm - Minimax Algorithm: algorithm/algorithm/algorithm-minimax-algorithm.md
+      - Algorithm - Map Reduce: algorithm/algorithm/algorithm-map-reduce.md
+      - Algorithm - Pre Sum: algorithm/algorithm/algorithm-pre-sum.md
+      - Algorithm - Coordinate: algorithm/algorithm/algorithm-coordinate.md
+      - Algorithm - Math: algorithm/algorithm/algorithm-math.md
     - Algorithm Overview: algorithm/algorithm-overview.md
   - Programming:
     - Development Environment:

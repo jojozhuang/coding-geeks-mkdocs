@@ -9,7 +9,7 @@ Bloom filter and its implementation.
 The cost paid for this efficiency is that a Bloom filter is a `probabilistic data structure`: it tells us that the element either definitely is **not** in the set or **may be** in the set.
 
 The base data structure of a Bloom filter is a `Bit Vector`.
-![image](../assets/images/algorithm/1133//bloom-filter.png){:width="700px"}
+![image](../../assets/images/algorithm/1133//bloom-filter.png){:width="700px"}
 
 ## Implementation
 
