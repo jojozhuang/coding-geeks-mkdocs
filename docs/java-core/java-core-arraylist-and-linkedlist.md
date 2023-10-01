@@ -252,7 +252,7 @@ Fruits list after deletion = [Apple, Banana, Watermelon, Kiwi]
 
 ## LinkedList
 
-### Constructor
+### Constructor of LinkedList
 
 There are two constructors in Java LinkedList class.
 
@@ -289,7 +289,7 @@ Construct list with another list: [5, 9, 4, 4, 2]
 Construct list with tree set: [2, 4, 5, 9]
 ```
 
-### Common Operations
+### Common Operations of LinkedList
 
 * list.add(item);
 * list.add(0, item);
@@ -333,7 +333,7 @@ Remove element which is at index 0 : [0, 1, 2, 3, 9, 4, 5, 6, 7, 8]
 Sub list from index 2(inclusive) to index 4(exclusive) : [2, 3]
 ```
 
-### Sorting
+### Sorting of LinkedList
 
 ```java
 private static void sortList() {
@@ -357,7 +357,7 @@ Sort list in ascending order: [1, 2, 3]
 Sort list in descending order: [3, 2, 1]
 ```
 
-### Traversal
+### Traversal of LinkedList
 
 There are two ways to traverse a list.
 
@@ -406,7 +406,7 @@ Traverse List(iterator): processing - Watermelon
 Traverse List(iterator): processing - Kiwi
 ```
 
-### Remove Element
+### Remove Element of LinkedList
 
 Below is the example showing the wrong way to remove element during traversal. We will get java.util.ConcurrentModificationException if we call `List.remove()` inside the for loop.
 

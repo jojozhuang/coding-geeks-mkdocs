@@ -1,15 +1,3 @@
----
-layout: tutorial
-key: programming
-title: "Java Core - Map"
-index: 2315
-subcategory: java-core
-date: 2017-01-08
-tags: [Map, HashMap, TreeMap]
----
-
-> Map, HashMap and TreeMap.
-
 # Map
 
 Map, HashMap and TreeMap.
@@ -305,7 +293,7 @@ fruits map after remove = {2=Mango, 4=Banana, 9=Apple}
 * Interface: java.util.SortedMap
 * Class: java.util.TreeMap
 
-### Constructor
+### Constructor of TreeMap
 
 There are three constructors in Java TreeMap class.
 
@@ -356,7 +344,7 @@ Construct TreeMap with map: {A=A, B=B, C=C, D=D}
 Construct TreeMap with another treemap: {D=D, C=C, B=B, A=A}
 ```
 
-### Common Operations
+### Common Operations of TreeMap
 
 * treeMap.put(key, value);
 * treeMap.containsKey(key);
@@ -478,7 +466,7 @@ Descending map: {8=8, 7=7, 6=6, 5=5, 4=4, 3=3, 2=2, 1=1}
 Remove element 6 : {1=1, 2=2, 3=3, 4=4, 5=5, 7=7, 8=8}
 ```
 
-### Traversal
+### Traversal of TreeMap
 
 There are two ways to traverse a list.
 
@@ -582,7 +570,7 @@ Traverse Entry(iterator): processing - 5=Orange
 Traverse Entry(iterator): processing - 9=Apple
 ```
 
-### Remove Element
+### Remove Element of TreeMap
 
 Below is the example showing the wrong way to remove element during traversal. We will get java.util.ConcurrentModificationException if we call `Map.remove()` inside the for loop.
 

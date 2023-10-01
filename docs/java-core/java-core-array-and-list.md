@@ -204,7 +204,7 @@ There is three built-in ways to convert List to Array in Java. All utilize the `
 * Using Generic Type: `T[] List.toArray(T[] array)` - This is the best way to convert List to Array because it supports generic types.
 * Using Stream: `stream.toArray()` - We can use stream in Java 8.
 
-**Using Object Array**  
+#### Using Object Array
 
 ```java
 private static void usingObject() {
@@ -224,7 +224,7 @@ Output.
 Object: arr1 = [1, 2, 3]
 ```
 
-**Using Generic Type**  
+#### Using Generic Type
 
 ```java
 private static void usingGeneric() {
@@ -269,7 +269,7 @@ Integer[] arr1 = list.toArray();
 System.out.println("arr1 = " + Arrays.toString(arr1));
 ```
 
-**Using Stream**  
+#### Using Stream
 
 ```java
 private static void usingStream() {

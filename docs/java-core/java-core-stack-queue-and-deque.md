@@ -162,7 +162,7 @@ Insert    | add(e)           | offer(e)
 Remove    | remove()         | poll()
 Examine   | element()        | peek()
 
-**add vs. offer**
+### add vs. offer
 
 ```java
 // insert
@@ -204,7 +204,7 @@ true
 
 * No difference for unbounded queue.
 
-**remove vs. poll**
+## remove vs. poll
 
 ```java
 // delete
@@ -245,7 +245,7 @@ null
 
 * If no elements in the queue, remove() method causes **NoSuchElementException**. But, poll() method returns **null** without exception.
 
-**element vs. peek**
+## element vs. peek
 
 ```java
 // examine
@@ -286,7 +286,7 @@ null
 
 ### BlockingQueue
 
-**add vs offer**
+#### add vs offer
 
 ```java
 public static void main(String[] args) {
@@ -332,7 +332,7 @@ false
 
 The Java Deque interface, java.util.Deque, represents a `double ended queue`, meaning a queue where you can add and remove elements from both ends of the queue. The name Deque is an abbreviation of **Double Ended Queue**.
 
-### Common Operations
+### Common Operations of Deque
 
 Constructing:
 
@@ -421,7 +421,7 @@ PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());  // 
 PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->b-a);                 // max heap
 ```
 
-### Common Operations
+### Common Operations of Heap
 
 * add(e): Insert an element into the priority queue.
 * offer(e): Insert an element into the priority queue.
@@ -430,7 +430,7 @@ PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->b-a);                 // 
 * peek(): Retrieve the top element of the queue, or returns null if queue is empty.
 * size(): Return the number of elements present in the queue.
 
-### Example
+### Example of Heap
 
 Min heap.
 

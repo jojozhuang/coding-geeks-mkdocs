@@ -133,7 +133,7 @@ Enter any string now, (quit) to end:
 ```
 
 In the terminal for TCP Client(Right one of the following screenshot), input any string and Enter. You will see the response from TCP Server.
-![image](/assets/images/programming/2323/tcpserver.png)  
+![image](../assets/images/programming/2323/tcpserver.png)
 
 ## UDP Example
 
@@ -229,7 +229,7 @@ public class UDPClient {
 }
 ```
 
-### Compiling
+### Compiling UDP
 
 Open terminal, navigate to the folder where these two java files locate. Use `javac` to compile them.
 
@@ -238,7 +238,7 @@ javac UDPServer.java
 javac UDPClient.java
 ```
 
-### Testing
+### Testing UDP
 
 Launch UDP server with following command.
 
@@ -256,7 +256,7 @@ Enter any string now, (quit) to end:
 ```
 
 In the terminal for UDP Client(Right one of the following screenshot), input any string and Enter. You will see the response from UDP Server.
-![image](/assets/images/programming/2323/udpserver.png)  
+![image](../assets/images/programming/2323/udpserver.png)
 
 ## Source Files
 

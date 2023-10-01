@@ -208,7 +208,7 @@ fruits set after iteration = [Apple, Watermelon, Mango, Banana]
 * Interface: java.util.SortedSet
 * Class: java.util.TreeSet
 
-### Constructor
+### Constructor of TreeSet
 
 There are three constructors in Java TreeSet class.
 
@@ -253,7 +253,7 @@ Construct TreeSet with list: [1, 2, 4, 5, 6, 7]
 Construct TreeSet with another set: [9, 5, 4, 2]
 ```
 
-### Common Operations
+### Common Operations of TreeSet
 
 * treeSet.add(item);
 * treeSet.contains(item);
@@ -340,7 +340,7 @@ Descending set: [8, 7, 6, 5, 4, 3, 2, 1]
 Remove element 6 : [1, 2, 3, 4, 5, 7, 8]
 ```
 
-### Traversal
+### Traversal of TreeSet
 
 There are two ways to traverse a list.
 
@@ -386,7 +386,7 @@ Traverse TreeSet(iterator): processing - Mango
 Traverse TreeSet(iterator): processing - Orange
 ```
 
-### Remove Element
+### Remove Element of TreeSet
 
 Below is the example showing the wrong way to remove element during traversal. We will get java.util.ConcurrentModificationException if we call `Set.remove()` inside the for loop.
 

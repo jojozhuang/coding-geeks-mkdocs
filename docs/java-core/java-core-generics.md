@@ -686,7 +686,7 @@ Wildcards can be used in three ways −
 * Lower Bounded Wildcard − `? super` Type.
 
 See the difference between upper bound wildcard and lower bound wildcard.
-![image](/assets/images/programming/2317/wildcards.png)
+![image](../assets/images/programming/2317/wildcards.png)
 
 ### Unbounded Wildcards
 

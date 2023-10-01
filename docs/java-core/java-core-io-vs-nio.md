@@ -6,10 +6,10 @@ Difference between IO and NIO.
 
 The table below summarizes the main differences between Java NIO and IO.
 
-|  IO  | NIO   |
-| ------------ | ------------ |
-| Stream oriented  | Buffer oriented  |
-| Blocking IO  | Non blocking IO <br/>Selectors  |
+| IO              | NIO                       |
+|-----------------|---------------------------|
+| Stream oriented | Buffer oriented           |
+| Blocking IO     | Non blocking IO, Selectors |
 
 ## IO Streams vs NIO Blocks
 
