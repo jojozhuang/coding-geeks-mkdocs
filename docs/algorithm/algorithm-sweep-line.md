@@ -109,7 +109,7 @@ public int getMostPopulation(int[][] persons) {
 
 ## Problem - Car Pooling
 
-### Problem Description
+### Problem Description2
 
 You are driving a vehicle that has `capacity` empty seats initially available for passengers.  The vehicle only drives east (ie. it cannot turn around and drive west.)
 
@@ -153,7 +153,7 @@ Constraints:
 * 0 <= trips[i][1] < trips[i][2] <= 1000
 * 1 <= capacity <= 100000
 
-### Sweep Line Solution
+### Sweep Line Solution2
 
 Similar solution as the previous problem. Create an array to store the number of passengers for all locations.
 

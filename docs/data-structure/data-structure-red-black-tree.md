@@ -38,7 +38,7 @@ The following examples are **NOT** Red Black Tree.
 
 ## Search
 
-Same as [Binary Search Tree](../data-structure-binary-search-tree/#2-search).
+Same as [Binary Search Tree](data-structure-binary-search-tree.md).
 
 ## Insertion
 

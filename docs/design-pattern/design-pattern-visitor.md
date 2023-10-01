@@ -53,7 +53,7 @@ public class Computer implements ComputerPart {
 }
 ```
 
-### Visitor
+### Visitor class
 
 ```java
 public interface ComputerPartVisitor {
