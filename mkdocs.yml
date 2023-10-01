@@ -81,6 +81,27 @@ nav:
       - Bit manipulation: algorithm/algorithm-bit-manipulation.md
       - Math: algorithm/algorithm-math.md
       - Random: algorithm/algorithm-random.md
+  - Java Core:
+      - Basic: java-core/java-core-basic.md
+      - Formatting: java-core/java-core-formatting.md
+      - Array and List: java-core/java-core-array-and-list.md
+      - Iterator: java-core/java-core-iterator.md
+      - Enum: java-core/java-core-enum.md
+      - Scanner: java-core/java-core-scanner.md
+      - Collection: java-core/java-core-collection.md
+      - ArrayList and LinkedList: java-core/java-core-arraylist-and-linkedlist.md
+      - Stack, Queue and Deque: java-core/java-core-stack-queue-and-deque.md
+      - Set: java-core/java-core-set.md
+      - Map: java-core/java-core-map.md
+      - Comparable vs Comparator: java-core/java-core-comparable-vs-comparator.md
+      - Generics: java-core/java-core-generics.md
+      - Generics Type Erasure: java-core/java-core-generics-type-erasure.md
+      - Static Block and Initialization Block: java-core/java-core-static-block.md
+      - BitSet: java-core/java-core-bitset.md
+      - Socket: java-core/java-core-socket.md
+      - IO: java-core/java-core-io.md
+      - NIO: java-core/java-core-nio.md
+      - IO vs NIO: java-core/java-core-io-vs-nio.md
   - Design pattern:
     - index/design-pattern/index.md
     - Creational Pattern:
@@ -109,7 +130,6 @@ nav:
       - Strategy: design-pattern/design-pattern-strategy.md
       - Template Method: design-pattern/design-pattern-template-method.md
       - Visitor: design-pattern/design-pattern-visitor.md
-
   - Programming:
     - Development Environment:
       - Getting Started with Linux: programming/getting-started-with-linux.md
