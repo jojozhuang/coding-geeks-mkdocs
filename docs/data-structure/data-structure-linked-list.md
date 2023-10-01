@@ -264,7 +264,7 @@ public ListNode detectCycle(ListNode head) {
 - [LeetCode 26 - Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [LeetCode 109 - Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
 
-## Source Files
+## Source files
 
 - [Source files for Linked List on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-linked-list)
 

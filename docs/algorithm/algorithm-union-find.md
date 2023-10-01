@@ -653,7 +653,7 @@ public int[] findRedundantConnection(int[][] edges) {
 * [LeetCode 305 - Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
 * [LeetCode 323 - Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 
-## Source Files
+## Source files
 
 * [Source files for Union Find on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/alg-union-find)
 * [Union Find Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1CulEG8tHmHdQQ5UPnCjrIzdpIZNZd-WB/view?usp=sharing)

@@ -239,7 +239,7 @@ public class TrieNode {
 
 * [LeetCode 212 - Word Search II](https://leetcode.com/problems/word-search-ii/)
 
-## Source Files
+## Source files
 
 * [Source files for Trie on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-trie)
 * [Trie Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1nU4ABZxZnVZytgbyiFuAZn7k4dGJxwg1/view?usp=sharing)

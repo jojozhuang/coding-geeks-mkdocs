@@ -217,7 +217,7 @@ A[i]\arr[i] | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
 * [LeetCode 486 - Predict the Winner](https://leetcode.com/problems/predict-the-winner/)
 * [LeetCode 877 - Stone Game](https://leetcode.com/problems/stone-game/)
 
-## Source Files
+## Source files
 
 * [Source files for Dynamic Programming on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/alg-dp)
 * [Dynamic Programming Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1gp898o4dRvrV2nPVZOEfJYfijkeyjdnK/view?usp=sharing)

@@ -241,7 +241,7 @@ lru.put(3,9); // keys = [3,7,4,6,5], values = [9,2,4,6,5], move key=3 to head
 lru.get(3);   // keys = [3,7,4,6,5], values = [9,2,4,6,5], return 9
 ```
 
-## Source Files
+## Source files
 
 * [Source files for LRU Cache on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-lru-cache)
 * [LRU Cache Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1ZIZ5oLBk_YLK-DRgEiQl_q5V5n6ZzEJx/view?usp=sharing)

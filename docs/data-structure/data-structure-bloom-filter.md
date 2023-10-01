@@ -165,7 +165,7 @@ It takes only about 1 second to complete the test, which is much faster than the
 Executed Time: 1171
 ```
 
-## Source Files
+## Source files
 
 * [Source files for Bloom Filter on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-bloom-filter)
 

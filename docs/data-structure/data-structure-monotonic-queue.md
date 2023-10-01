@@ -176,7 +176,7 @@ public int[][] firstLarger(int[] nums) {
 }
 ```
 
-## Source Files
+## Source files
 
 * [Source files for Monotonic Queue on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-monotonic-queue)
 

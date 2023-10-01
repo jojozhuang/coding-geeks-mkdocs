@@ -287,7 +287,7 @@ Space complexity:
 
 * $O(n)$, 3*N, N is the number of keys
 
-## Source Files
+## Source files
 
 * [Source files for LFU Cache on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-lfu-cache)
 * [LFU Cache Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1NGLMVXkvRhIkwAkvQtRHCHwN9VgjihoN/view?usp=sharing)

@@ -134,7 +134,7 @@ sd.query(7, 8); // 10
 
 * [LeetCode 307 - Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
 
-## Source Files
+## Source files
 
 * [Source files for Sqrt Decomposition on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/alg-sqrt-decomposition)
 * [Sqrt Decomposition Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1GPb8JsGG9S76k6jZg25WRoVYxF5JXxIg/view?usp=sharing)

@@ -360,7 +360,7 @@ public class QueueMergeSort {
 
 * [LeetCode 346 - Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
 
-## Source Files
+## Source files
 
 * [Source files for Queue on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-queue)
 * [Queue Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1BVK-Fe6Wh1c1crGYpSxvPpG_lTPpCisa/view?usp=sharing)

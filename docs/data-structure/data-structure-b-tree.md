@@ -339,7 +339,7 @@ public class BTree<Key extends Comparable<Key>, Value>  {
 }
 ```
 
-## Source Files
+## Source files
 
 * [Source files for B Tree on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-btree)
 * [B Tree Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1YKBH9VD-vg7LqoYj77tjU6sEQ64y9StE/view?usp=sharing)

@@ -430,7 +430,7 @@ public class MyHashSet {
 * [LeetCode 1 - Two Sum](https://leetcode.com/problems/two-sum/)
 * [LeetCode 128 - Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
-## Source Files
+## Source files
 
 * [Source files for HashMap on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-hashmap)
 * [HashMap Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/17exDp3INEXpg8-Sk46gR9rLWYTo1Uckn/view?usp=sharing)

@@ -120,7 +120,7 @@ When to define a dp matrix with `m+1` and `n+1`? see question [LeetCode 221 - Ma
 * [LeetCode 64 - Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 * [LeetCode 221 - Maximal Square](https://leetcode.com/problems/maximal-square)
 
-## Source Files
+## Source files
 
 * [Source files for Dynamic Programming on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/alg-dp)
 * [Dynamic Programming Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1gp898o4dRvrV2nPVZOEfJYfijkeyjdnK/view?usp=sharing)

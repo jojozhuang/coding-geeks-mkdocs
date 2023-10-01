@@ -338,7 +338,7 @@ public int numIslands(char[][] grid) {
 * [LeetCode 542 - 01 Matrix](https://leetcode.com/problems/01-matrix/)
 * [LeetCode 797 - All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)
 
-## Source Files
+## Source files
 
 * [Source files for BFS and DFS on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/alg-bfs-dfs)
 

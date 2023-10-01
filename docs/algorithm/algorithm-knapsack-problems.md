@@ -658,7 +658,7 @@ public int coinChange(int[] coins, int amount) {
 * [LintCode 92 - Backpack](https://www.lintcode.com/problem/backpack/)
 * [LintCode 91 - Minimum Adjustment Cost](https://www.lintcode.com/problem/minimum-adjustment-cost)
 
-## Source Files
+## Source files
 
 * [Source files for Knapsack Problems on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/alg-knapsack)
 * [Dynamic Programming Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1gp898o4dRvrV2nPVZOEfJYfijkeyjdnK/view?usp=sharing)

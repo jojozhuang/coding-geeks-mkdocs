@@ -215,7 +215,7 @@ public int searchLast(int[] nums, int target) {
 * [LeetCode 796 - Rotate String](https://leetcode.com/problems/rotate-string/)
 * [LeetCode 151 - Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
 
-## Source Files
+## Source files
 
 * [Source files for Binary Search on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/alg-binary-search)
 * [Binary Search Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/1kFOgd-Xf944qt2zqupqd7-eHG7C237si/view?usp=sharing)

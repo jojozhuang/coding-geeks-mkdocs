@@ -396,7 +396,7 @@ public class FenwickTreeSimplified {
 * If update operation is rare, we should use the improved solution.
 * If update operation is frequent, then we should use either segment tree or fenwick tree.
 
-## Source Files
+## Source files
 
 * [Source files for Fenwick Tree on GitHub](https://github.com/jojozhuang/dsa-java/tree/master/ds-fenwick-tree)
 * [Fenwick Tree Diagrams(draw.io) in Google Drive](https://drive.google.com/file/d/15FCWO-Xp00NC-VsX7xmbmm4F2iZdHIgs/view?usp=sharing)
