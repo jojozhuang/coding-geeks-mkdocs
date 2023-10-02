@@ -1,15 +1,3 @@
----
-layout: tutorial
-key: programming
-title: "Java 8 - Functional Composition"
-index: 2356
-subcategory: java-java8
-date: 2017-05-05
-tags: [Functional Composition]
----
-
-> Functional Interfaces in Java 8.
-
 # Functional Composition
 
 Functional composition is a technique to combine multiple functions into a single function which uses the combined functions internally. You can compose individual functions (typically one or more Java Lambda Expressions) into a single function yourself, but Java also comes with built-in support for functional composition to make the job easier for you.

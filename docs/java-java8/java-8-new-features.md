@@ -128,7 +128,7 @@ Output.
 
 Functional interfaces have a `single` functionality to exhibit. For example, a Comparable interface with a single method ‘compareTo’ is used for comparison purpose. Java 8 has defined a lot of functional interfaces to be used extensively in lambda expressions. Following is the list of functional interfaces defined in `java.util.Function` package.
 
-`Predicate` <T> interface is a functional interface with a method test(Object) to return a Boolean value. This interface signifies that an object is tested to be true or false.
+`Predicate <T>` interface is a functional interface with a method test(Object) to return a Boolean value. This interface signifies that an object is tested to be true or false.
 
 Example
 

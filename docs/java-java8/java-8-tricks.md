@@ -50,14 +50,14 @@ are required as follows:(Integeri)->{return"Alan"+i;}.
 * 5 “Iron Man” is an expression, not a statement. To make this lambda valid, you can remove the curly braces and semicolon as follows:(Strings)->"Iron Man". Or if you prefer, you can use an explicit return statement as follows:
 (String s) -> { return "Iron Man"; }.
 
-Use case | Examples of lambdas
----------|---------------------
-A boolean expression | (List<String> list) -> list.isEmpty()
-Creating objects  |  () -> new Apple(10)
-Consuming from an object   |  (Apple a) -> { System.out.println(a.getWeight()); }
+Use case                      | Examples of lambdas
+------------------------------|-----------------------------------------------------------------
+A boolean expression          | (List<String> list) -> list.isEmpty()
+Creating objects              | () -> new Apple(10)
+Consuming from an object      | (Apple a) -> { System.out.println(a.getWeight()); }
 Select/extract from an object | (String s) -> s.length()
- Combine two values  |  (int a, int b) -> a * b
-Compare two objects  |  (Apple a1, Apple a2) -> a1.getWeight().compareTo(a2.getWeight())
+Combine two values            | (int a, int b) -> a * b
+Compare two objects           | (Apple a1, Apple a2) -> a1.getWeight().compareTo(a2.getWeight())
 
 Functional Interface.
 
@@ -106,7 +106,7 @@ public String getCarInsuranceName(Person person) {
 }
 ```
 
-java.util.Optional<T>
+`java.util.Optional<T>`
 
 Manipulating a stream of optionals
 

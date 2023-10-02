@@ -1,15 +1,3 @@
----
-layout: tutorial
-key: programming
-title: "Java 8 - Stream API"
-index: 2357
-subcategory: java-java8
-date: 2017-05-06
-tags: [Stream API]
----
-
-> Stream in Java 8.
-
 # Stream API
 
 The Java Stream API provides a functional approach to processing collections of objects. The Java Stream API was added in Java 8 along with several other functional programming features.
