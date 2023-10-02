@@ -102,6 +102,17 @@ nav:
       - IO: java-core/java-core-io.md
       - NIO: java-core/java-core-nio.md
       - IO vs NIO: java-core/java-core-io-vs-nio.md
+      - Java Tricks: java-core/java-core-java-tricks.md
+  - Java 8:
+      - Tricks: java-java8/java-8-tricks.md
+      - New Features in Java 8: java-java8/java-8-new-features.md
+      - Functional programming: java-java8/java-8-functional-programming.md
+      - Higher Order Functions: java-java8/java-8-higher-order-functions.md
+      - Functional Interfaces: java-java8/java-8-functional-interfaces.md
+      - Functional Composition: java-java8/java-8-functional-composition.md
+      - Stream API: java-java8/java-8-stream-api.md
+      - Predicate: java-java8/java-8-predicate.md
+      - Lazy Execution with Lambda: java-java8/java-8-lazy-execution-with-lambda.md
   - Design pattern:
     - index/design-pattern/index.md
     - Creational Pattern:
