@@ -1,16 +1,7 @@
----
-layout: tutorial
-key: programming
-title: "Java Core - Tricks"
-index: 2302
-subcategory: java-core
-date: 2017-09-02
-tags: [Java]
----
+# Java tricks
 
-> Some tricky cases when using Java.
+## Overflow when assigning Integer value
 
-## 1. Overflow when assigning Integer value
 As we all know, the range of Integer in java is from -2147483648(-2^31) to 2147483647(2^31 - 1). And we use constant Integer.MIN_VALUE to represent -2147483648, and Integer.MAX_VALUE to represent 2147483647. When trying to increment the max value or decrement the min value, overflow occurs. That is
 
 ```java
@@ -40,10 +31,12 @@ var1 = var1 + 1;
 long var1 = (long)Integer.MAX_VALUE + 1;
 ```
 
-## 2. How a primitive float/double value can be -0.0?  
+## How a primitive float/double value can be -0.0?
+
 Float is a tricky type in java.  
 
-### 2.1 The first issue is precision of float
+### The first issue is precision of float
+
 You could never be able to store a floating point number of infinite precision with finite resources. You should never test if a floating point number == to some other, i.e. never write code like this:
 
 ```java
@@ -62,7 +55,8 @@ and then test against the precision you need
 if (Math.abs(a - b) < epsilon)
 ```
 
-### 2.2 The second is the negative zero value, -0.0.  
+### The second is the negative zero value, -0.0
+
 When I working on an algorithm problem [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) in leetcode.com, I need to calculate the slope of two points, below are the original codes.
 
 ```java
@@ -76,11 +70,14 @@ I updated my code to add 0.0 at the end of the line to make sure no negative zer
 ```java
 slope = (double)(points[i].y - points[j].y) / (points[i].x - points[j].x) + 0.0;
 ```
-### 2.3 Reference
+
+### Reference
+
 * [How can a primitive float value be -0.0? What does that mean?](http://stackoverflow.com/questions/6724031/how-can-a-primitive-float-value-be-0-0-what-does-that-mean)
 * [What Every Computer Scientist Should Know About Floating-Point Arithmetic](http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
 
-## 3. Difference between i++ and ++i in a loop?
+## Difference between i++ and ++i in a loop?
+
 * i++ => add 1 to a, returns the old value.
 * ++i => add 1 to a, returns the new value.
 
@@ -104,6 +101,7 @@ System.out.println();
 ```
 
 The below two `for` loops print the same output.
+
 ```java
 for (int i = 0; i < 5; i++) {
     System.out.print(i);
@@ -118,8 +116,10 @@ for (int i = 0; i < 5; ++i) {
 01234
 ```
 
-## 4. Is Java “pass-by-reference” or “pass-by-value”?
+## Is Java “pass-by-reference” or “pass-by-value”?
+
 Everything in Java is pass-by-value. For class object, it pass its address to method.
+
 ```java
 public class Main{
     public static void main(String[] args){
@@ -152,14 +152,19 @@ public class Main{
     }
 }
 ```
+
 Notice, method `setToNull(Foo d)` won't work, object 'f' is still a non-null object.
 
-### 4.2 Reference
+### Reference 2
+
 Search the same code in the page of below link, there is an diagram explains why.
+
 * [Is Java “pass-by-reference” or “pass-by-value”?](https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value)
 
-## 5. Convert Enum to String
+## Convert Enum to String
+
 When using Enum, we probably encounter the situation that we need to convert it to String. We can call 'toString()' method.
+
 ```java
 enum Color {
   RED, GREEN, BLUE;
@@ -171,7 +176,9 @@ public static void main(String[] args)
   System.out.println(strColor);
 }
 ```
+
 Better solution. Define the Enum type with String.
+
 ```java
 public enum Color {
    RED("RED"),
@@ -195,4 +202,7 @@ public static void main(String[] args)
   System.out.println(strColor);
 }
 ```
+
+### Reference 3
+
 * [Best way to create enum of strings?](https://stackoverflow.com/questions/3978654/best-way-to-create-enum-of-strings)
