@@ -103,6 +103,23 @@ nav:
       - NIO: java-core/java-core-nio.md
       - IO vs NIO: java-core/java-core-io-vs-nio.md
       - Java Tricks: java-core/java-core-java-tricks.md
+  - Java Concurrency:
+      - Concurrency overview: java-concurrency/java-concurrency-overview.md
+      - MultiThreading: java-concurrency/java-concurrency-multithreading.md
+      - wait, notify and notifyAll: java-concurrency/java-concurrency-wait-notify-notifyall.md
+      - Thread Pool: java-concurrency/java-concurrency-thread-pool.md
+      - Callable and Future: java-concurrency/java-concurrency-callables-and-futures.md
+      - Fork Join: java-concurrency/java-concurrency-fork-join.md
+      - Synchronization: java-concurrency/java-concurrency-synchronization.md
+      - Synchronizers: java-concurrency/java-concurrency-synchronizers.md
+      - Volatile: java-concurrency/java-concurrency-volatile.md
+      - ThreadLocal: java-concurrency/java-concurrency-threadlocal.md
+      - Thread Signaling: java-concurrency/java-concurrency-thread-signaling.md
+      - Dead Lock: java-concurrency/java-concurrency-dead-lock.md
+      - ConcurrentSkipListMap: java-concurrency/java-concurrency-concurrentskiplistmap.md
+      - Volatile, Final and Atomics: java-concurrency/java-concurrency-volatile-final-atomics.md
+      - BlockingQueue: java-concurrency/java-concurrency-blockingqueue.md
+      - Reading Files in Parallel: java-concurrency/java-concurrency-reading-files-in-parallel.md
   - Java 8:
       - Tricks: java-java8/java-8-tricks.md
       - New Features in Java 8: java-java8/java-8-new-features.md
