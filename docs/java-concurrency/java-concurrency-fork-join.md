@@ -1,15 +1,3 @@
----
-layout: tutorial
-key: programming
-title: "Java Concurrency - Fork Join"
-index: 2406
-subcategory: java-concurrency
-date: 2017-04-04
-tags: [RecursiveTask, Fork Join]
----
-
-> Learn the fork-join framework
-
 # Fork-join
 
 The `fork-join` framework allows to break a certain task on several workers and then wait for the result to combine them. It leverages multi-processor machine's capacity to great extent.
@@ -22,7 +10,7 @@ Classes:
 * `ForkJoinPool` - A special thread pool designed to work with fork-and-join task splitting.
 * `RecursiveTask<V>` - RecursiveTask represents a task which returns a value.
 * `RecursiveAction` - Just like RecursiveTask except it does not return a result
-* `ForkJoinTask<V>` - Superclass of RecursiveTask<V> and RecursiveAction. fork() and join() are methods defined in this class.
+* `ForkJoinTask<V>` - Superclass of `RecursiveTask<V>` and RecursiveAction. fork() and join() are methods defined in this class.
 
 ## Example
 

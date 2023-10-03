@@ -7,7 +7,7 @@ The synchronization is mainly used to
 * Prevent thread interference.
 * Prevent consistency problem.
 
-### Concurrency Issues
+## Concurrency Issues
 
 Example of Race Condition.
 
